@@ -92,7 +92,7 @@ public class TrayIconManager
             uFlags = NIF_MESSAGE | NIF_ICON | NIF_TIP,
             uCallbackMessage = WM_TRAYICON,
             hIcon = _hIcon,
-            szTip = "AleClip - Clipboard Manager (Alt+V)"
+            szTip = "Clipale - Clipboard Manager (Alt+V)"
         };
 
         Shell_NotifyIcon(NIM_ADD, ref _nid);

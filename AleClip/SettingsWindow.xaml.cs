@@ -98,7 +98,7 @@ public partial class SettingsWindow : Window
             try
             {
                 StorageService.Instance.ExportJson(sfd.FileName);
-                MessageBox.Show(LocalizationService.Instance.Loc("settings.backup.exportSuccess"), "AleClip", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(LocalizationService.Instance.Loc("settings.backup.exportSuccess"), "Clipale", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
@@ -119,7 +119,7 @@ public partial class SettingsWindow : Window
             try
             {
                 int count = StorageService.Instance.ImportJson(ofd.FileName);
-                MessageBox.Show(LocalizationService.Instance.LocF("settings.backup.importSuccess", count), "AleClip", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(LocalizationService.Instance.LocF("settings.backup.importSuccess", count), "Clipale", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
@@ -131,6 +131,6 @@ public partial class SettingsWindow : Window
     private void ClearUnpinnedBtn_Click(object sender, RoutedEventArgs e)
     {
         StorageService.Instance.ClearUnpinned();
-        MessageBox.Show(LocalizationService.Instance.Loc("settings.backup.clearSuccess"), "AleClip", MessageBoxButton.OK, MessageBoxImage.Information);
+        MessageBox.Show(LocalizationService.Instance.Loc("settings.backup.clearSuccess"), "Clipale", MessageBoxButton.OK, MessageBoxImage.Information);
     }
 }

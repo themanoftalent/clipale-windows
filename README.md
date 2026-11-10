@@ -1,4 +1,4 @@
-# AleClip for Windows 📋
+# Clipale for Windows 📋
 
 <p align="center">
   <strong>A modern, lightweight native clipboard manager for Windows 10 &amp; 11.</strong><br>
@@ -25,7 +25,7 @@
 
 ## 🛡️ Privacy & Philosophy
 
-- **Zero Data Collection**: AleClip contains **no telemetry, no analytics, no remote tracking, and no internet access**.
+- **Zero Data Collection**: Clipale contains **no telemetry, no analytics, no remote tracking, and no internet access**.
 - **100% Local Storage**: All clipboard clips and settings are saved strictly on your local disk (`%LocalAppData%\AleClip\`).
 - **Free for Everyone**: Free to use, free to share, and free to fork for personal or commercial workflows.
 - **Open Source (MIT)**: Permissive open-source license allows anyone to inspect, modify, fork, and build their own customized versions.
@@ -65,7 +65,7 @@
 
 | Shortcut | Action |
 | :--- | :--- |
-| `Alt + V` | **Toggle Panel** (Open / Dismiss AleClip bottom panel from any app) |
+| `Alt + V` | **Toggle Panel** (Open / Dismiss Clipale bottom panel from any app) |
 | `←` `→` | **Navigate** between clipboard cards |
 | `Enter` | **Paste** selected clip into active application |
 | `Shift + Enter` | **Paste as Plain Text** (strips rich text / HTML styling) |
@@ -125,3 +125,7 @@ If you find this project helpful, consider supporting it or reaching out for col
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.  
 Created and maintained by **SoftAI Yazılım (Mehmet Akif Çifçi)**.
+
+## Clipale branding and compatibility
+
+Clipale is the new display name of AleClip. Existing package identifiers, source namespaces, executable and backup filenames, storage and sync paths, and repository URLs retain their legacy names for compatibility. Existing published assets and screenshots may still show the previous branding until a new release is published.

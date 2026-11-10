@@ -43,7 +43,7 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: AleClip-Windows-x64
+          name: Clipale-Windows-x64
           path: ./publish/windows/AleClip.exe
 
       - name: Attach Windows Executable to GitHub Release
